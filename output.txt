@@ -1,0 +1,17 @@
+=== Después de clonar ===
+Personaje{nombre='Guerrero-Base', clase='Guerrero', inventario=[Poción de vida]}
+Personaje{nombre='Guerrero-Copia', clase='Guerrero', inventario=[Poción de vida]}
+Personaje{nombre='Mago-Base', clase='Mago', inventario=[Poción de maná, Libro de hechizos]}
+Personaje{nombre='Mago-Copia', clase='Mago', inventario=[Poción de maná, Libro de hechizos]}
+
+=== Después de agregar 'Escudo' a Guerrero-Copia ===
+Prototipo Guerrero : [Poción de vida]
+Guerrero-Copia     : [Poción de vida, Escudo]
+Prototipo Mago     : [Poción de maná, Libro de hechizos]
+Mago-Copia         : [Poción de maná, Libro de hechizos]
+
+¿Mismo objeto Inventario? false
+
+=== Prototipo inexistente ===
+[Registro] No existe el prototipo 'Arquero'. No se puede clonar.
+Resultado: null
